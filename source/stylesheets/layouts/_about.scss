@@ -1,0 +1,12 @@
+#about .content {
+  @include media-breakpoint-down(sm) {
+    background-color: rgba(255,255,255,0.8);
+    border: 1px solid white;
+    padding: 15px;
+    overflow-y: scroll;
+  }
+  @include media-breakpoint-up(sm) {
+    max-width: 70%;
+    margin: auto;
+  }
+}

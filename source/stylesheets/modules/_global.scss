@@ -1,0 +1,143 @@
+// Global styles
+
+// Fonts
+
+body, p {
+  font-family: $font-family-sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p.heading {
+  font-family: $font-family-headings;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+.text-secondary {
+  color: $secondary;
+}
+
+.text-dark {
+  color: $dark;
+}
+
+.text-light {
+  color: $light;
+}
+
+.text-gray {
+  color: $gray;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.background-primary {
+  background-color: $primary;
+}
+
+.background-secondary {
+  background-color: $secondary;
+}
+
+.background-light {
+  background-color: $light;
+}
+
+.background-dark {
+  background-color: $dark;
+}
+
+.background-gray {
+  background-color: $gray;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.btn:hover {
+  transition: all 0.5s ease;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  background-color: darken($primary, 10%);
+  border-color: darken($primary, 10%);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: $secondary;
+  border-color: $secondary;
+}
+
+.btn-secondary:hover {
+  background-color: darken($secondary, 10%);
+  border-color: darken($secondary, 10%);
+  color: white;
+}
+
+.btn-light {
+  background-color: $light;
+  border-color: $light;
+}
+
+.btn-light:hover {
+  background-color: darken($light, 10%);
+  border-color: darken($light, 10%);
+  color: white;
+}
+
+.btn-primary-outline {
+  color: $primary;
+  border-color: $primary;
+}
+
+.btn-primary-outline:hover {
+  background-color: $primary;
+  border-color: $primary;
+  color: white;
+}
+
+.btn-light-outline {
+  color: $light;
+  border-color: $light;
+}
+
+.btn-light-outline:hover {
+  background-color: $light;
+  border-color: $light;
+  color: $dark;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  color: $brand-primary;
+}
+
+a:hover {
+  color: darken($brand-primary, 10%);
+}
+
+em {
+  font-family: $font-family-headings;
+  font-style: italic;
+  font-size: 110%;
+}
+
+
+p {
+  @include media-breakpoint-down(sm) {
+    font-size: 0.9em;
+  }
+}

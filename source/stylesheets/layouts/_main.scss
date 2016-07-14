@@ -1,0 +1,44 @@
+body {
+  background-color: $light;
+}
+
+.main {
+  background: image-url('workspace.jpg') #f0f0f0 no-repeat center;
+  background-size: cover;
+  height: 90vh;
+}
+
+.main .container {
+  padding-top: 20px;
+}
+
+.social-icons li{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.social-icons a{
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.social-icons a:hover {
+  color: $brand-primary;
+}
+
+.content.white {
+  background-color: rgba(255,255,255,0.8);
+  border: 1px solid white;
+  padding: 15px;
+  overflow-y: scroll;
+  height: 80vh;
+  @include media-breakpoint-up(sm) {
+    width: 66.67%;
+    margin: auto;
+  }
+}
+
+.subtitle {
+  margin-top: 15px;
+}
+
+
