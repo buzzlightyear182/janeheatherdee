@@ -1,5 +1,5 @@
 //= require jquery
 //= require tether
-//= require bootstrap-sprockets
+//= require bootstrap
 //= require magnific-popup
 //= require_tree .
