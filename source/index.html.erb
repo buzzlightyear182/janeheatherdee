@@ -7,10 +7,13 @@ title: Jane Heather Dee
   <div class='container'>
     <div class="tab-content">
       <div class="tab-pane active" id="home" role="tabpanel">
-      <h1 class='title'>Jane Heather Dee</h1>
+      <h1 class='sr-only sr-only-focusable text-hide'>Jane Heather Dee</h1>
+      <div class='avatar-container'>
+        <%= image_tag 'avatar.png', :class=>'animated fadeIn img-fluid center-block' %>
+      </div>
       <p class='subtitle'>Front-End + Ruby on Rails Web Developer,<br>
       <small>Licensed Financial Advisor for Sun Life Financial</small></p>
-      Currently based in Manila, Philippines</p>
+      <!-- <p>Currently based in Manila, Philippines</p> -->
       <%= partial 'partials/social-icons' %>
       </div>
       <%= partial 'partials/about-me' %>
