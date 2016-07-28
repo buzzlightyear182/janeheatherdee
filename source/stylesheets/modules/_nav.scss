@@ -6,9 +6,10 @@
   letter-spacing: 0.1em;
 }
 
-.navbar-brand {
+.navbar {
   @include media-breakpoint-down(sm) {
-    padding-left: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
