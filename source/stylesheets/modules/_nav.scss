@@ -5,3 +5,13 @@
 .navbar-brand .title {
   letter-spacing: 0.1em;
 }
+
+.navbar-brand {
+  @include media-breakpoint-down(sm) {
+    padding-left: 15px;
+  }
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+  outline: none;
+}

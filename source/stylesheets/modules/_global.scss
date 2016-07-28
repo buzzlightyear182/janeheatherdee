@@ -14,44 +14,8 @@ h1, h2, h3, h4, h5, h6, p.heading {
   color: $primary !important;
 }
 
-.text-secondary {
-  color: $secondary;
-}
-
-.text-dark {
-  color: $dark;
-}
-
-.text-light {
-  color: $light;
-}
-
-.text-gray {
-  color: $gray;
-}
-
 .text-center {
   text-align: center;
-}
-
-.background-primary {
-  background-color: $primary;
-}
-
-.background-secondary {
-  background-color: $secondary;
-}
-
-.background-light {
-  background-color: $light;
-}
-
-.background-dark {
-  background-color: $dark;
-}
-
-.background-gray {
-  background-color: $gray;
 }
 
 .background-white {
@@ -73,50 +37,6 @@ h1, h2, h3, h4, h5, h6, p.heading {
   color: white;
 }
 
-.btn-secondary {
-  background-color: $secondary;
-  border-color: $secondary;
-}
-
-.btn-secondary:hover {
-  background-color: darken($secondary, 10%);
-  border-color: darken($secondary, 10%);
-  color: white;
-}
-
-.btn-light {
-  background-color: $light;
-  border-color: $light;
-}
-
-.btn-light:hover {
-  background-color: darken($light, 10%);
-  border-color: darken($light, 10%);
-  color: white;
-}
-
-.btn-primary-outline {
-  color: $primary;
-  border-color: $primary;
-}
-
-.btn-primary-outline:hover {
-  background-color: $primary;
-  border-color: $primary;
-  color: white;
-}
-
-.btn-light-outline {
-  color: $light;
-  border-color: $light;
-}
-
-.btn-light-outline:hover {
-  background-color: $light;
-  border-color: $light;
-  color: $dark;
-}
-
 .hidden {
   display: none;
 }
@@ -134,7 +54,6 @@ a:hover, a:active, a:focus {
   font-style: italic;
   font-size: 110%;
 }
-
 
 p {
   @include media-breakpoint-down(sm) {
