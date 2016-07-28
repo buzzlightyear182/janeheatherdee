@@ -31,6 +31,9 @@ body {
   padding: 15px;
   overflow-y: scroll;
   height: 80vh;
+}
+
+#resume .content {
   @include media-breakpoint-up(sm) {
     width: 66.67%;
     margin: auto;

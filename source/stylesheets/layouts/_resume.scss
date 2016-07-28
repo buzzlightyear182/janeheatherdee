@@ -12,8 +12,15 @@
 
 .entry h6 .fa-caret-down {
   margin-left: 15px;
+  color: $primary;
+  font-size: 1.25em;
+  line-height: 1em;
 }
 
 .entry .heading {
   cursor: pointer;
+}
+
+.entry a {
+  text-decoration: none;
 }

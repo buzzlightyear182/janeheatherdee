@@ -1,0 +1,71 @@
+.grid-item {
+  @include media-breakpoint-up(sm) {
+      width: 49%;
+  }
+  @include media-breakpoint-up(xl) {
+      width: 24%;
+  }
+}
+
+#works .card {
+  display: inline-block;
+}
+
+#works .card-block {
+  padding: 1rem;
+}
+
+.filter {
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.filter li{
+  display: inline;
+}
+
+.filter li {
+  margin-right: 15px;
+}
+
+.filter li:last-child {
+  margin-right: 0px;
+}
+
+#works .card-title {
+  margin-bottom: 0.25rem;
+  font-style: italic;
+}
+
+#works .action-link {
+  border-bottom: 3px solid $primary;
+  text-decoration: none;
+}
+
+#works .action-link:hover, .action-link:focus, .action-link:active {
+  color: darken($brand-primary, 15%);
+  border-color: darken($brand-primary, 15%);
+}
+
+#works a.card-text {
+  text-decoration: none;
+  // font-family: $font-family-headings;
+  // font-style: italic;
+}
+
+#works .modal-title{
+  font-family: $font-family-headings;
+  font-style: italic;
+}
+
+#works .modal-header p{
+  margin-bottom: 0px;
+}
+
+#works .modal-body p {
+  text-align: left;
+}
+
+#works .smaller {
+  font-size: 90%;
+}
