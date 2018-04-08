@@ -1,0 +1,60 @@
+<div class="modal fade" id="rawBitesModal" tabindex="-1" role="dialog" aria-labelledby="rawBitesLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-ipad" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="rawBitesLabel">Raw Bites</h4>
+        <a href='https://www.rawbites.com.ph/' class="visit-link" target='_blank'>rawbites.com.ph</a>
+        <p><small>front-end development, e-commerce</small></p>
+      </div>
+      <div class="modal-body">
+        <div class='row'>
+          <div class='col-sm-4'>
+            <div id="carousel-rawbites" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <%= image_tag 'works/rawbites_long.png', class: 'img-fluid m-b-1 center-block', alt: "Raw Bites website" %>
+                </div>
+                <div class="carousel-item">
+                  <%= image_tag 'works/rawbites_long2.png', class: 'img-fluid m-b-1 center-block', alt: "Raw Bites subscription page" %>
+                </div>
+                <div class="carousel-item">
+                  <%= image_tag 'works/rawbites_long3.png', class: 'img-fluid m-b-1 center-block', alt: "Raw Bites subscription page" %>
+                </div>
+              </div>
+              <!-- <a role='button' class="left carousel-control" href="#carousel-rawbites" data-slide="prev">
+                <span class="icon-prev" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a role='button' class="right carousel-control" href="#carousel-rawbites" data-slide="next">
+                <span class="icon-next" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a> -->
+              <ol class="carousel-indicators">
+              <li data-target="#carousel-rawbites" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-rawbites" data-slide-to="1"></li>
+              <li data-target="#carousel-rawbites" data-slide-to="2"></li>
+              </ol>
+            </div>
+          </div>
+          <div class='col-sm-8'>
+            <p>Raw Bites is the first healthy snacks subscription box in the Philippines. The site has two functions: manage subscriptions of the monthly box and an online grocery to buy individual items.</p>
+            <p>The design was made by my business partner who handles creatives. We wanted the site to look fun, fresh and youthful.</p>
+            <p>The e-commerce shop is built on <a href='https://www.shopify.com/?ref=jane-heather-dee' target="_blank">Shopify</a>. I customized a lot of components and pages on the site using Liquid and JS, for example:
+              <ul>
+                <li><strong>Countdown timer (JS)</strong> - counts down to the number of days before subscription period expires, and then automatically resets for the following month
+                </li>
+                <li><strong>Landing page sections</strong> - enable admin users to change texts, images as needed without the need for code</li>
+                <li><strong>Product subscription page </strong>- this concept is entirely new to the market, thus we wanted to present our subscription plans in the easiest understandable way. This custom page lets our customers see all the plans in an organized manner and select conveniently their option.</li>
+                <li><strong>App Integration</strong> - we use BOLD apps to handle recurring orders and rewards/loyalty points for our customers.</li>
+                <li><strong>Gift cards</strong> - implementation of a different design depending on gift card value, on the product page and PDF voucher emailed to the customer</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

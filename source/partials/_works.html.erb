@@ -7,11 +7,20 @@
       <li>Ruby on Rails</li>
     </ul> -->
     <div class='grid'>
+       <div class="card grid-item">
+        <%= image_tag 'works/rawbites_325.png', class: "card-img-top img-fluid", alt: "Black Dog Consultants" %>
+        <div class="card-block">
+          <h5 class="card-title">Raw Bites</h5>
+          <a href='https://www.rawbites.com.ph' class="card-text" target='_blank'>rawbites.com.ph</a>
+          <p class="card-text"><small>front-end development<br/> e-commerce</small></p>
+          <a href="#" class="action-link" data-toggle="modal" data-target="#rawBitesModal">Read more</a>
+        </div>
+      </div>
       <div class="card grid-item">
         <%= image_tag 'works/blackdog_325.png', class: "card-img-top img-fluid", alt: "Black Dog Consultants" %>
         <div class="card-block">
           <h5 class="card-title">Blackdog Consultants</h5>
-          <a href='http://www.blackdog-consultants.com/' class="card-text" target='_blank'>blackdog-consultants.com</a>
+          <a href='https://www.blackdog-consultants.com/' class="card-text" target='_blank'>blackdog-consultants.com</a>
           <p class="card-text"><small>web design &amp; front-end, <br>static site web development</small></p>
           <a href="#" class="action-link" data-toggle="modal" data-target="#blackdogConsultants">Read more</a>
         </div>
@@ -37,6 +46,7 @@
     </div>
   </div>
   <%= partial 'modals/blackdog-consultants' %>
-  <%= partial 'modals/gatherph' %>
   <%= partial 'modals/goldenhorsemedical' %>
+  <%= partial 'modals/gatherph' %>
+  <%= partial 'modals/rawbites' %>
 </div>

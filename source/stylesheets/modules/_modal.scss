@@ -1,3 +1,31 @@
-.modal p{
-  font-size: 0.9rem;
+.modal {
+	p, li {
+	  font-size: 0.9rem;
+	}
+
+	li {
+		text-align: left;
+	}
+
+	.carousel-control.right, .carousel-control.left {
+		background: none;
+	}
+
+	.carousel-control {
+		.icon-next, .icon-prev {
+			color: $brand-primary;
+			text-shadow: none;
+			@include media-breakpoint-down(md) {
+			font-size: 40px;
+		}
+		}
+
+	}
+}
+
+.modal-ipad {
+	@include media-breakpoint-up(md) {
+		max-width: 900px;
+		width: 90%;
+	}
 }
